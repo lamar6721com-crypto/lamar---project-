@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>لمعة | لمسة من الجمال</title>
+
+<style>
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Tahoma, Arial, sans-serif;
+    background: #fffaf5;
+    color: #40232d;
+    line-height: 1.9;
+}
+
+header {
+    background: #702d43;
+    color: #f7e8d0;
+    text-align: center;
+    padding: 35px 15px;
+}
+
+.logo {
+    font-size: 52px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.english {
+    direction: ltr;
+    font-size: 20px;
+    letter-spacing: 4px;
+    margin: 0;
+}
+
+nav {
+    background: #f0dfd0;
+    padding: 12px;
+    text-align: center;
+}
+
+nav a {
+    color: #702d43;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ad6b79;
+}
+
+.hero {
+    text-align: center;
+    padding: 45px 20px;
+    background: #f7e8df;
+}
+
+.hero h2 {
+    font-size: 30px;
+    color: #702d43;
+}
+
+.hero p {
+    max-width: 650px;
+    margin: auto;
+}
+
+section {
+    padding: 30px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+h2 {
+    color: #702d43;
+    text-align: center;
+}
+
+.info {
+    background: white;
+    border-radius: 15px;
+    padding: 22px;
+    box-shadow: 0 3px 12px #0000000d;
+}
+
+.info p {
+    margin: 10px 0;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: 15px;
+    box-shadow: 0 3px 12px #00000012;
+}
+
+.card img {
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+    display: block;
+}
+
+.card h3 {
+    color: #702d43;
+    margin-bottom: 5px;
+}
+
+.card p {
+    padding: 0 12px;
+}
+
+.message {
+    background: #702d43;
+    color: #f7e8d0;
+    text-align: center;
+    padding: 30px 15px;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+footer {
+    background: #40232d;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    margin-top: 25px;
+}
+
+@media (max-width: 500px) {
+    nav a {
+        display: inline-block;
+        margin: 4px 7px;
+    }
+
+    .logo {
+        font-size: 42px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1 class="logo">لمعة</h1>
+    <p class="english">LAMAA</p>
+    <p>لمسة من الجمال، وتفاصيل تخطف الخيال.</p>
+</header>
+
+<nav>
+    <a href="#home">الرئيسية</a>
+    <a href="#about">عن المشروع</a>
+    <a href="#products">نماذج المنتجات</a>
+    <a href="#goal">هدف المشروع</a>
+</nav>
+
+<div class="hero" id="home">
+    <h2>أهلًا بكم في عالم لمعة</h2>
+    <p>
+        مشروع إبداعي يهدف إلى تقديم منتجات جميلة ومميزة
+        بلمسات فنية بسيطة، تجمع بين الأناقة والإبداع.
+    </p>
+</div>
+
+<section id="about">
+    <h2>التعريف بالمشروع</h2>
+    <div class="info">
+        <p><strong>اسم الطالبة:</strong> لمار حمد الحاتمي</p>
+        <p><strong>الصف:</strong> عاشر / ١</p>
+        <p><strong>اسم المشروع:</strong> لمعة</p>
+        <p>
+            <strong>وصف المشروع:</strong>
+            مشروع صغير يهدف إلى تصميم وتزيين منتجات وإكسسوارات
+            باستخدام الخرز والألوان والأشكال الجميلة، لتقديم
+            قطع مميزة تناسب الأذواق المختلفة.
+        </p>
+    </div>
+</section>
+
+<section id="products">
+    <h2>نماذج من منتجاتنا</h2>
+
+    <div class="products">
+
+        <div class="card">
+            <img src="images/model1.jpg"
+                 alt="النموذج الأول">
+            <h3>النموذج الأول</h3>
+            <p>تصميم مميز بلمسات فنية جميلة.</p>
+        </div>
+
+        <div class="card">
+            <img src="images/model2.jpg"
+                 alt="النموذج الثاني">
+            <h3>النموذج الثاني</h3>
+            <p>تفاصيل جميلة تجمع بين البساطة والأناقة.</p>
+        </div>
+
+        <div class="card">
+            <img src="images/model3.jpg"
+                 alt="النموذج الثالث">
+            <h3>النموذج الثالث</h3>
+            <p>أفكار إبداعية تضيف لمسة خاصة لكل منتج.</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="goal">
+    <h2>أهداف المشروع</h2>
+    <div class="info">
+        <p>• تنمية مهارات الإبداع والابتكار.</p>
+        <p>• إنتاج منتجات جميلة ومميزة.</p>
+        <p>• تعلم أساسيات ريادة الأعمال.</p>
+        <p>• تحقيق الربح من خلال بيع المنتجات.</p>
+        <p>• تحويل الأفكار البسيطة إلى منتجات مفيدة وجذابة.</p>
+    </div>
+</section>
+
+<section>
+    <div class="message">
+        لمعة… لمسة من الجمال، وتفاصيل تخطف الخيال.
+    </div>
+</section>
+
+<footer>
+    <p>مشروع لمعة | إعداد: لمار حمد الحاتمي</p>
+    <p>الصف العاشر / ١</p>
+</footer>
+
+</body>
+</html>
